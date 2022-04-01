@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding-bottom: 4rem;
+}
+
+.nav-item {
+  padding: 0px 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 4% 3% 0%;
+}
+
+.title-image {
+  width: 22%;
+  margin-top: 20px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+#features {
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.fa-solid {
+  color: #ef8172;
+  padding: 1rem;
+  font-size: 50px;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.fpara {
+  color: #8f8f8f;
+}
+
+.features-row {
+  padding: 5%;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 12%;
+  margin-top: 2rem;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  text-align: center;
+  padding: 50px;
+}
+
+.card-pricing {
+  padding: 50px;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.cta-text {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 6% 15%;
+}
+
+.footer-link {
+  color: black;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.footer-text{
+  font-size: 12px;
+}
